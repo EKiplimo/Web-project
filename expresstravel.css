@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+}
+
+.logo{
+	float: left;
+	width: 14%;
+}
+
+.float{
+	clear: left;
+}
+
+
+.header{
+	float: right;
+	width: 85%;
+	background-color: #990033;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	font-size: 22px;
+	font-family:'Diplomata SC', cursive;;
+}
+.gif{
+	float: left;
+	width: 20%;
+}
+
+.office{
+	float: left;
+	width: 50%;
+}
+
+.main{
+	clear: right;
+}
+
+
+.navbar{
+	background-color: #ffe6cc;
+	padding: 22px;
+	font-size: 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	padding: 30px;
+	color: #730099;
+}
+
+.navbar a:hover{
+	background-color: white;
+	color: blueviolet;
+}
+
+.pic{
+	padding: 10px;
+}
+
+.pic2{
+	float: right;
+	width: 33.3%;
+	padding: 30px;
+}
+
+.border{
+	border: thin;
+}
+
+.column{
+	padding: 10px;
+	text-align: center;
+	font-size: 19px;
+	color: #1f1f7a;
+}
+
+.column1{
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	padding-top: unset;
+	text-align: center;
+}
+
+.h2{
+	color: #cc0000;
+	font-family: 'Updock', cursive;
+	font-size: 50px;
+}
+
+.h3{
+	color: #cc00cc;
+	font-family: 'Lobster', cursive;
+
+}
+
+.about{
+	float: right;
+	width: 85%;
+}
+
+.p{
+	color: #1f1f7a;
+	padding: 25px;
+	padding-top: unset;
+	padding-right: 60px;
+	padding-left: 60px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+
+}
+
+.details{
+	color: #1f1f7a;
+	padding-top: unset;
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+
+}
+
+
+.email{
+	color: #1f1f7a;
+}
+
+#fname, #lname, #from, #to, #date, #time, #number{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+	max-width: 64em;
+	margin: auto;
+	text-align: center;
+}
+
+.signup-form-input
+{
+	text-align: center;
+	width: 300px !important;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+
+  
+
+  input[type="Submit"]
+{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 37%;
+  background: tomato;
+  color: #fff;
+  cursor: pointer;
+}
